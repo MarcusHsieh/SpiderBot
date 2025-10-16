@@ -1,0 +1,38 @@
+# Kinetis Design Studio Build Artifacts
+Debug/
+Release/
+*.elf
+*.bin
+*.hex
+*.map
+*.d
+*.o
+
+# Processor Expert Generated Code
+Generated_Code/
+
+# IDE State Files
+.SpiderBot_*.g_c
+.SpiderBot_*.g_x
+.cwGeneratedFileSetLog
+
+# Documentation Auto-Generated
+Documentation/doxygen/
+Documentation/SpiderBot_*.txt
+Documentation/*_Settings.xml
+
+# ESP32 PlatformIO Build Artifacts (handled by ESP32_ServoControl/.gitignore)
+# Already excluded in subdirectory
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Temporary and backup files
+*~
+*.bak
+*.swp
+*.tmp
